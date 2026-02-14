@@ -38,9 +38,4 @@ This structure keeps business logic independent of the UI and fully testable.
 - Git + GitHub
 
 ## Screenshots
-
-(Add screenshots here)
-
----
-
-Designed as a focused exercise in clean SwiftUI architecture and testable application design.
+![TipSplit Screenshot](screenshots/tip-split-main.png)
