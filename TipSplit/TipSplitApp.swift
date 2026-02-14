@@ -1,6 +1,6 @@
 //
-//  WeSplitApp.swift
-//  WeSplit
+//  TipSplitApp.swift
+//  TipSplit
 //
 //  Created by Mark on 2/12/26.
 //

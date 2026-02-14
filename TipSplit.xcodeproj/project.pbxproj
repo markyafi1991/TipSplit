@@ -6,14 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		A7D679102F402E93004C34D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7D678EC2F3E915C004C34D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7D678F32F3E915C004C34D3;
+			remoteInfo = WeSplit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		A7D678F42F3E915C004C34D3 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D678F42F3E915C004C34D3 /* TipSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D6790C2F402E93004C34D3 /* TipSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A7D678F62F3E915C004C34D3 /* WeSplit */ = {
+		A7D678F62F3E915C004C34D3 /* TipSplit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeSplit;
+			path = TipSplit;
+			sourceTree = "<group>";
+		};
+		A7D6790D2F402E93004C34D3 /* TipSplitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TipSplitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -26,13 +42,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7D679092F402E93004C34D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A7D678EB2F3E915C004C34D3 = {
 			isa = PBXGroup;
 			children = (
-				A7D678F62F3E915C004C34D3 /* WeSplit */,
+				A7D678F62F3E915C004C34D3 /* TipSplit */,
+				A7D6790D2F402E93004C34D3 /* TipSplitTests */,
 				A7D678F52F3E915C004C34D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +64,8 @@
 		A7D678F52F3E915C004C34D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7D678F42F3E915C004C34D3 /* WeSplit.app */,
+				A7D678F42F3E915C004C34D3 /* TipSplit.app */,
+				A7D6790C2F402E93004C34D3 /* TipSplitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7D678F32F3E915C004C34D3 /* WeSplit */ = {
+		A7D678F32F3E915C004C34D3 /* TipSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7D678FF2F3E915D004C34D3 /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildConfigurationList = A7D678FF2F3E915D004C34D3 /* Build configuration list for PBXNativeTarget "TipSplit" */;
 			buildPhases = (
 				A7D678F02F3E915C004C34D3 /* Sources */,
 				A7D678F12F3E915C004C34D3 /* Frameworks */,
@@ -61,14 +86,37 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A7D678F62F3E915C004C34D3 /* WeSplit */,
+				A7D678F62F3E915C004C34D3 /* TipSplit */,
 			);
-			name = WeSplit;
+			name = TipSplit;
 			packageProductDependencies = (
 			);
 			productName = WeSplit;
-			productReference = A7D678F42F3E915C004C34D3 /* WeSplit.app */;
+			productReference = A7D678F42F3E915C004C34D3 /* TipSplit.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A7D6790B2F402E93004C34D3 /* TipSplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D679122F402E93004C34D3 /* Build configuration list for PBXNativeTarget "TipSplitTests" */;
+			buildPhases = (
+				A7D679082F402E93004C34D3 /* Sources */,
+				A7D679092F402E93004C34D3 /* Frameworks */,
+				A7D6790A2F402E93004C34D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7D679112F402E93004C34D3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7D6790D2F402E93004C34D3 /* TipSplitTests */,
+			);
+			name = TipSplitTests;
+			packageProductDependencies = (
+			);
+			productName = WeSplitTests;
+			productReference = A7D6790C2F402E93004C34D3 /* TipSplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -83,9 +131,13 @@
 					A7D678F32F3E915C004C34D3 = {
 						CreatedOnToolsVersion = 26.2;
 					};
+					A7D6790B2F402E93004C34D3 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = A7D678F32F3E915C004C34D3;
+					};
 				};
 			};
-			buildConfigurationList = A7D678EF2F3E915C004C34D3 /* Build configuration list for PBXProject "WeSplit" */;
+			buildConfigurationList = A7D678EF2F3E915C004C34D3 /* Build configuration list for PBXProject "TipSplit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,13 +151,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7D678F32F3E915C004C34D3 /* WeSplit */,
+				A7D678F32F3E915C004C34D3 /* TipSplit */,
+				A7D6790B2F402E93004C34D3 /* TipSplitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A7D678F22F3E915C004C34D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D6790A2F402E93004C34D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7D679082F402E93004C34D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7D679112F402E93004C34D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7D678F32F3E915C004C34D3 /* TipSplit */;
+			targetProxy = A7D679102F402E93004C34D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A7D678FD2F3E915D004C34D3 /* Debug */ = {
@@ -310,10 +385,52 @@
 			};
 			name = Release;
 		};
+		A7D679132F402E93004C34D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ46L7E989;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.algonquinconsult.WeSplitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipSplit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TipSplit";
+			};
+			name = Debug;
+		};
+		A7D679142F402E93004C34D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ46L7E989;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.algonquinconsult.WeSplitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipSplit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TipSplit";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7D678EF2F3E915C004C34D3 /* Build configuration list for PBXProject "WeSplit" */ = {
+		A7D678EF2F3E915C004C34D3 /* Build configuration list for PBXProject "TipSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7D678FD2F3E915D004C34D3 /* Debug */,
@@ -322,11 +439,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7D678FF2F3E915D004C34D3 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+		A7D678FF2F3E915D004C34D3 /* Build configuration list for PBXNativeTarget "TipSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7D679002F3E915D004C34D3 /* Debug */,
 				A7D679012F3E915D004C34D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7D679122F402E93004C34D3 /* Build configuration list for PBXNativeTarget "TipSplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D679132F402E93004C34D3 /* Debug */,
+				A7D679142F402E93004C34D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
